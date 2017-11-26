@@ -1,4 +1,5 @@
 import React, {PropTypes} from 'react';
+import Parallex from './shared/Parallex.js';
 
 class App extends React.Component {
   constructor(props, context) {
@@ -8,7 +9,7 @@ class App extends React.Component {
   render() {
     return(
       <div className='container-fluid'>
-        <h1>Pushkar Kathuria- Resume to die for</h1>
+        <Parallex />
         {this.props.children}
       </div>
     )

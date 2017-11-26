@@ -3,10 +3,9 @@ import React, {PropTypes} from 'react';
 import {render} from 'react-dom';
 import {Router, browserHistory} from 'react-router';
 import routes from './routes';
-// import './styles/style.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import './assets/styles/styles.scss';
 
 render (
     <Router history={browserHistory} routes={routes} />,
-    document.getElementById('app')
+    document.getElementById('resume-wrapper')
 )

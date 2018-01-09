@@ -1,5 +1,5 @@
 import React, {PropTypes} from 'react';
-import Parallex from './shared/Parallex.js';
+import Header from './shared/Header.js';
 
 class App extends React.Component {
   constructor(props, context) {
@@ -9,7 +9,7 @@ class App extends React.Component {
   render() {
     return(
       <div className='container-fluid'>
-        <Parallex />
+        <Header />
         {this.props.children}
       </div>
     )

@@ -8,13 +8,10 @@ class HomePage extends React.Component {
 
   render() {
     return(
-      <div>
-        <div className='jumbotron'>
-          <h1>Pushkar Kathuria</h1>
-          <Link to='About' className='btn btn-primary btn-lg'>About</Link>
-        </div>
+      <div className="resume-container">
+          <h1 className="resume-title">Pushkar Kathuria</h1>
       </div>
-    )
+    );
   }
 }
 

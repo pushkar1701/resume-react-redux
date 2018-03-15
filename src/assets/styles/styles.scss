@@ -1,9 +1,25 @@
 $bootstrap-sass-asset-helper: true;
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
+@font-face {
+  font-family: 'MISTV';
+  src: url('../fonts/MISTV.ttf');
+}
+
 #resume-wrapper {
     width: 100%;
     height: 100%;
+
+    a.active {
+      color: orange;
+    }
+
+    .resume-container {
+      display: flex;
+      .resume-title {
+        font-family: MISTV;
+      }
+    }
 
     .parallex {
       background-image: url("../images/pushkar-peek.jpg");

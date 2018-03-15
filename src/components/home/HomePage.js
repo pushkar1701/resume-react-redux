@@ -9,7 +9,7 @@ class HomePage extends React.Component {
   render() {
     return(
       <div className="resume-container">
-          <h1 className="resume-title">Pushkar Kathuria</h1>
+          <h1 className="resume-title">DO you Know Pushkar Kathuria ???</h1>
       </div>
     );
   }

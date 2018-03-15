@@ -16,8 +16,11 @@ $bootstrap-sass-asset-helper: true;
 
     .resume-container {
       display: flex;
+      justify-content: center;
       .resume-title {
         font-family: MISTV;
+        font-size: 50px;
+        color: steelblue;
       }
     }
 

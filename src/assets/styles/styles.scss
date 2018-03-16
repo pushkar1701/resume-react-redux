@@ -15,13 +15,42 @@ $bootstrap-sass-asset-helper: true;
     }
 
     .resume-container {
-      display: flex;
-      justify-content: center;
-      .resume-title {
-        font-family: MISTV;
-        font-size: 50px;
-        color: steelblue;
+      .resume-title-container {
+        display: flex;
+        justify-content: center;
+        .resume-title {
+          font-family: MISTV;
+          font-size: 45px;
+          color: steelblue;
+        }
       }
+
+      .resume-info {
+        display: flex;
+        justify-content: space-between;
+        .resume-about-me {
+          flex-basis: 50%;
+          ol { 
+            font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#bfe1f1;
+            li {
+              p { 
+                padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:steelblue; border-left: 1px solid #999;
+                em { 
+                  display:block;
+                }
+              }
+            }
+          }
+        }
+        .resume-img {
+          flex-basis: 50%;
+        }
+      }
+    }
+
+    @media only screen and (max-width: 480px) { 
+      
+      
     }
 
     .parallex {

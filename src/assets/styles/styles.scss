@@ -27,9 +27,11 @@ $bootstrap-sass-asset-helper: true;
 
       .resume-info {
         display: flex;
-        justify-content: space-between;
+        align-items: center;
         .resume-about-me {
           flex-basis: 50%;
+          display: flex;
+          justify-content: space-around;
           ol { 
             font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#bfe1f1;
             li {
@@ -44,6 +46,8 @@ $bootstrap-sass-asset-helper: true;
         }
         .resume-img {
           flex-basis: 50%;
+          display: flex;
+          justify-content: space-around;
         }
       }
     }
